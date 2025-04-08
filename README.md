@@ -11,8 +11,8 @@ Este proyecto es una aplicación de línea de comandos (CLI) escrita en TypeScri
 ### 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/kedeinroga/interbank-academy-25.git
-cd interbank-academy-25
+git clone https://github.com/kedeinroga/bank-cli.git
+cd bank-cli
 ```
 
 ### 2.  Instala las dependencias:
