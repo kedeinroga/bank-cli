@@ -43,7 +43,7 @@ npm start
 ## 🧠 Enfoque y Solución
 
 ### 🔍 Lógica Implementada
-- ***Lectura del CSV:*** Se utiliza fs.readFileSync para leer el archivo y convertir cada línea en una instancia de Transaction; Si el archivo es muy grande, se puede usar un parser por streams como `csv-parser`.
+- ***Lectura del CSV:*** Se utiliza fs.readFileSync para leer el archivo y convertir cada línea en un objeto con la estructura definida por la interfaz `Transaction`; Si el archivo es muy grande, se puede usar un parser por streams como `csv-parser`.
 
 - ***Modelo de Datos:*** Una interfaz Transaction representa cada transacción, con sus propiedades tipadas; no es una clase, esto ahorar tiempo creación de instancias.
 
